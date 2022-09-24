@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="src/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="top" id="inputSpace">
+        <label for="cityInput" id="city-name">
+          Enter your city
+        </label>
+        <br />
+        <form id="enter-city">
+          <input type="text" name="city" id="city-input" />
+          <input type="submit" value="Search" id="searchButton" />
+        </form>
+        <div class="LocationFinder" id="curr-location">
+          <a href="#">Current location</a>
+        </div>
+      </div>
+      <div class="cities">
+        <input type="submit" value="Budapest" class="newCity" />
+        <br />
+        <input type="submit" value="Paris" class="newCity" />
+        <br />
+        <input type="submit" value="Berlin" class="newCity" />
+      </div>
+      <div id="days">
+        <div class="fiveDays">
+          <div class="date"></div>
+          <div class="mainWeather">
+            The Day
+            <div class="mainTemp">
+              20°C 🌤️
+            </div>
+          </div>
+
+          <div id="dayOne" class="nextWeather">
+            Day One
+            <div class="temp">
+              20°C 🌤️
+            </div>
+          </div>
+          <div id="dayTwo" class="nextWeather">
+            Day Two
+            <div class="temp">
+              20°C 🌤️
+            </div>
+          </div>
+          <div id="dayThree" class="nextWeather">
+            Day Three
+            <div class="temp">
+              20°C 🌤️
+            </div>
+          </div>
+          <div id="dayFour" class="nextWeather">
+            Day Four
+            <div class="temp">
+              20°C 🌤️
+            </div>
+          </div>
+          <div id="dayFive" class="nextWeather">
+            Day Five
+            <div class="temp">
+              20°C 🌤️
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

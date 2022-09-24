@@ -1,0 +1,114 @@
+#inputSpace {
+    background: gray;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 470px;
+    padding: 40px 20px;
+    border-radius: 15px;
+    position: relative;
+    background: #118a7e;
+    color: #93e4c1;
+  }
+  
+  .cities {
+    position: absolute;
+    left: calc(50% + 110px);
+    top: 20px;
+    color: #93e4c1;
+  }
+  input[type="submit"] {
+    width: 90px;
+  }
+  #searchButton {
+    background: #93e4c1;
+    border: 0;
+  }
+  .newCity {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid #1f6f78;
+    background: #3baea0;
+    transition: 200ms ease-in-out;
+  }
+  .newCity:hover {
+    background: #1f6f78;
+  }
+  .fiveDays {
+    background: #3baea0;
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    max-width: 470px;
+    padding: 40px 20px;
+    border-radius: 15px;
+    color: #93e4c1;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mainWeather {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  .nextWeather {
+    background: #118a7e;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+  }
+  .container {
+    position: relative;
+  }
+  #dayOne .temp {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: 235px;
+    font-size: 40px;
+  }
+  #dayTwo .temp {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: 294px;
+    font-size: 40px;
+  }
+  #dayThree .temp {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: 352px;
+    font-size: 40px;
+  }
+  #dayFour .temp {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: 411px;
+    font-size: 40px;
+  }
+  #dayFive .temp {
+    position: absolute;
+    left: calc(50% + 50px);
+    top: 470px;
+    font-size: 40px;
+  }
+  .mainTemp {
+    position: absolute;
+    left: calc(50% + 15px);
+    bottom: 340px;
+    font-size: 55px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .temp {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .date {
+    position: absolute;
+    top: 155px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  .LocationFinder {
+    position: absolute;
+    font-size: 12px;
+  }
+  a {
+    color: #3baea0;
+  }
+  
